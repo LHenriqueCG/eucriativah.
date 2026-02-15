@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EuCriativah | Bolos e Delícias</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="https://fav.farm/🍰" />
+
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #fdf2f4;
+            margin: 0;
+            color: #444;
+        }
+
+        header {
+            background-color: #fff;
+            padding: 40px 20px;
+            text-align: center;
+            border-bottom: 3px solid #ffb7c5;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+        }
+
+        /* Estilizando o título como se fosse uma marca */
+        header h1 {
+            color: #ff6b81;
+            margin: 0;
+            font-size: 2.2em;
+            text-shadow: 1px 1px 0px #fff;
+        }
+
+        /* Estilizando a imagem com uma borda branca "estilo foto polaroid" */
+        img {
+            width: 100%;
+            max-width: 350px;
+            display: block;
+            margin: 10px auto 30px;
+
+            /* Moldura */
+            background-color: white;
+            border: 12px solid white;
+            border-radius: 2px;
+            /* Cantos mais retos para parecer papel */
+
+            /* Sombra mais intensa para destacar do fundo branco */
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+
+            /* Inclinação para dar charme */
+            transform: rotate(-3deg);
+        }
+
+        .btn-whats {
+            background-color: #25d366;
+            color: white;
+            padding: 18px 35px;
+            text-decoration: none;
+            border-radius: 50px;
+            /* Bem arredondado */
+            font-weight: bold;
+            display: inline-block;
+            transition: transform 0.3s ease;
+            /* Efeito suave ao passar o mouse */
+            box-shadow: 0 10px 20px rgba(37, 211, 102, 0.3);
+        }
+
+        .btn-whats:hover {
+            transform: scale(1.05);
+            /* O botão cresce levemente */
+            background-color: #1ebe57;
+        }
+
+        footer {
+            background-color: #ffb7c5;
+            color: white;
+            padding: 30px;
+            text-align: center;
+            margin-top: 60px;
+            font-size: 0.9em;
+        }
+
+        .container-principal {
+            max-width: 500px;
+            margin: 40px auto;
+            /* Mudamos de -20px para 40px positivo */
+            background: #f7dcdc;
+            padding: 30px;
+            /* Aumentei um pouco o preenchimento interno */
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+            text-align: center;
+        }
+
+        h2 {
+            font-family: 'Poppins', sans-serif;
+            color: #ff6b81;
+            /* Use a cor da marca para dar destaque */
+            font-weight: 600;
+            /* Deixa a letra um pouco mais grossinha */
+            font-size: 1.3rem;
+            font-style: normal;
+            /* Tirei o itálico para dar mais leitura */
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        p {
+            font-family: 'Poppins', sans-serif;
+            color: #999;
+            /* Um cinza bem mais claro para o texto secundário */
+            font-size: 0.95rem;
+            /* Diminuí levemente o tamanho */
+            margin-bottom: 25px;
+            /* Dá espaço para o botão de WhatsApp */
+        }
+
+        /* Animação de pulsar */
+@keyframes pulsar {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+
+.btn-whats {
+    /* ... seu código atual ... */
+    animation: pulsar 2s infinite ease-in-out; /* O botão 'respira' a cada 2 segundos */
+}
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>EuCriativah</h1>
+    </header>
+
+    <div class="container-principal">
+        <img src="bolo.jpeg" alt="Descrição do bolo">
+
+        <div class="info-venda">
+            <h2>Bolos inteiros , Slice cake e outras delícias</h2>
+            <p>Massa artesanal com recheio cremoso.</p>
+
+            <a href="https://wa.me/5521996449977" class="btn-whats">
+                Encomendar seu pedido 🍰
+            </a>
+        </div>
+    </div>
+
+    <footer>
+        Feito com ❤️ por Edilene Cabral
+    </footer>
+</body>
+
+</html>
